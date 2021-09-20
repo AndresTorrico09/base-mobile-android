@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Product Highlights</string>
+    <string name="preferences_key">application_preferences_key</string>
+
+    <!-- Detail -->
+    <string name="price_format">$ %s</string>
+    <string name="condition_format">Condición: %s</string>
+    <string name="condition_new">Nuevo</string>
+    <string name="condition_used">Usado</string>
+    <string name="accepts_mercadopago_format">Acepta MercadoPago: %s</string>
+    <string name="status_format">Estado: %s</string>
+    <string name="status_active">Activo</string>
+    <string name="status_inactive">Inactivo</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="save">Guardar</string>
+
+</resources>

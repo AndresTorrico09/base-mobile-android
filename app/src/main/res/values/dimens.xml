@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_xs">8sp</dimen>
+    <dimen name="font_s">12sp</dimen>
+    <dimen name="font_m">16sp</dimen>
+    <dimen name="font_l">20sp</dimen>
+    <dimen name="font_xl">24sp</dimen>
+
+    <dimen name="margin_xs">1dp</dimen>
+    <dimen name="margin_s">6dp</dimen>
+    <dimen name="margin_m">18dp</dimen>
+    <dimen name="margin_l">24dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+
+    <dimen name="product_card_view_height">200dp</dimen>
+
+    <dimen name="corner_radius">10dp</dimen>
+
+</resources>
