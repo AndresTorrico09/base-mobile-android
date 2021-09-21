@@ -29,7 +29,7 @@ class ProductAdapter(
 
         fun bind(product : Product){
             with(binding) {
-                Picasso.get().load(product.thumbnail).into(thumbnail)
+//                Picasso.get().load(product.thumbnail).into(thumbnail)
                 price.text = "$${product.price}"
                 description.text = product.title
                 root.setOnClickListener { listener.onProductClicked(product) }

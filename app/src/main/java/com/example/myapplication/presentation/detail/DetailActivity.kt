@@ -31,7 +31,7 @@ class DetailActivity : AppCompatActivity() {
 
     private fun renderProduct() {
         with(binding) {
-            Picasso.get().load(selectedProduct.thumbnail).into(thumbnail)
+//            Picasso.get().load(selectedProduct.thumbnail).into(thumbnail)
             title.text = selectedProduct.title
             price.text = String.format(getString(R.string.price_format), selectedProduct.price)
             condition.text = String.format(
