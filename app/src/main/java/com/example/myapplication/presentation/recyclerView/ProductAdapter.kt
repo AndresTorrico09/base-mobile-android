@@ -5,10 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.data.model.product.Product
 import com.example.myapplication.databinding.ViewHolderProductBinding
-import com.squareup.picasso.Picasso
 
 class ProductAdapter(
-    private var highlights : List<Product>,
+    private var list : List<Product>,
     private var listener: OnProductListener
 ): RecyclerView.Adapter<ProductAdapter.ProductViewHolder>() {
 
@@ -18,10 +17,10 @@ class ProductAdapter(
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
-        holder.bind(highlights[position])
+        holder.bind(list[position])
     }
 
-    override fun getItemCount(): Int = highlights.size
+    override fun getItemCount(): Int = list.size
 
     inner class ProductViewHolder(
         private val binding: ViewHolderProductBinding

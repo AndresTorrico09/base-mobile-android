@@ -14,6 +14,10 @@ class ProductRepository constructor(
         return productRemoteDataSource.getHighlightList(categoryName)
     }
 
+    fun getCarsList(): Resource<List<Product>> {
+        return productLocalDataSource.getCarsList()
+    }
+
     fun saveFavourite(productId: String) {
         productLocalDataSource.saveFavourite(productId)
     }

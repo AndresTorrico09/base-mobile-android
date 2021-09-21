@@ -93,7 +93,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin_l"
                 android:layout_marginEnd="@dimen/margin_l"
-                android:text="@string/save"
+                android:backgroundTint="@color/alkemy"
+                android:text="@string/contact"
                 app:layout_constraintTop_toTopOf="@id/price"
                 app:layout_constraintBottom_toBottomOf="@id/price"
                 app:layout_constraintEnd_toEndOf="parent"/>
